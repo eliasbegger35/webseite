@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+ 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+ 
+.top-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+ 
+.home-icon {
+    font-size: 1.5em;
+    padding: 10px;
+}
+ 
+.left-section,
+.middle-section,
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.left-section {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    flex: 1;
+}
+ 
+.left-section-content {
+    text-align: center;
+}
+ 
+.middle-section {
+    background-color: pink;
+    color: black;
+    padding: 10px 20px;
+    flex: 1;
+}
+ 
+.middle-section-content {
+    text-align: center;
+}
+ 
+.right-section {
+    background-color: lightblue;
+    padding: 10px 20px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+ 
+.right-section-content {
+    font-size: 1.5em;
+}
+ 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+ 
+h1 {
+    font-size: 2em;
+}
+
+/*code header*/
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+ 
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 150px; /* Adjust the height if necessary */
+}
+ 
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    width: 12222%;
+    height: 115%;
+    margin: -20px;
+}
+ 
+#zjt-logo {
+    background-color: #DE3636;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+ 
+.logo-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    height: 100%;
+}
+ 
+#i45-logo, #jaz-logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+ 
+#i45-logo {
+    background-color: #F26BFF;
+    margin-left: -10px;
+}
+ 
+#jaz-logo {
+    background-color: #90DAEE;
+    margin-left: -10px;
+
+}
+ 
+.logo img {
+    max-width: 50%;
+    height: auto;
+}
+ 
+nav {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+ 
+.menu-content {
+    display: none; /* Seiteninhalt standardmäßig verstecken */
+}
+
+.menu-button:focus + .menu-content {
+    display: block; /* Seiteninhalt anzeigen, wenn .menu-button Fokus hat */
+}
+
+nav .menu-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}

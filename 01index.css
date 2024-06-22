@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    height: 40px;
+}
+
+nav .menu-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.event-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.event-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-container button {
+    background: #00796b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.info-section, .more-section {
+    padding: 20px;
+}
+
+.more-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    font-family: Cambria;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 1;
+    min-width: calc(50% - 10px);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card p {
+    padding: 10px;
+}
+
+footer {
+    background: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-nav a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #00796b;
+}
+
+/*code header*/
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+ 
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 150px; /* Adjust the height if necessary */
+}
+ 
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    width: 12222%;
+    height: 115%;
+    margin: -20px;
+}
+ 
+#zjt-logo {
+    background-color: #DE3636;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+ 
+.logo-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    height: 100%;
+}
+ 
+#i45-logo, #jaz-logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+ 
+#i45-logo {
+    background-color: #F26BFF;
+    margin-left: -10px;
+}
+ 
+#jaz-logo {
+    background-color: #90DAEE;
+    margin-left: -10px;
+
+}
+ 
+.logo img {
+    max-width: 50%;
+    height: auto;
+}
+ 
+nav {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+ 
+.menu-content {
+    display: none; /* Seiteninhalt standardmäßig verstecken */
+}
+
+.menu-button:focus + .menu-content {
+    display: block; /* Seiteninhalt anzeigen, wenn .menu-button Fokus hat */
+}
